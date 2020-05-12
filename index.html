@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack Game</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Voltaire&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+    <div id="intro">
+
+        <h1 id="Welcome">🃏Welcome to Black Jack!🃏</h1>
+
+        <hr>
+
+        <p class="click-txt">Click Play to begin</p>
+
+        <button id="play-btn">Play!</button>
+
+    </div>
+
+    <div id="main-game">
+
+        <h1 id="main-h1">Blackjack</h1>
+
+        <hr>
+
+        <div class="players">
+            <h2 id="player1">Player 1</h2>
+
+            <h2 id="dealer">Dealer</h2>
+        </div>
+
+        <p id="dealer-comment" class=""></p>
+
+        <div id="score-number">
+            <div class="player-cards">
+                <img id="card" class="card1" src="./images/frontofdeck_blue.png" alt="blue front">
+                <img id="card" class="card2" src="./images/frontofdeck_blue.png" alt="blue front">
+            </div>
+            <hr>
+            <div class="dealer-cards">
+                <img id="card" class="card3" src="./images/frontofdeck_red.png" alt="red front">
+                <img id="card" class="card4" src="./images/frontofdeck_red.png" alt="red front">
+            </div>
+        </div>
+
+        <div class="game-btns">
+            <button id="game-btn" type="button" class="hit-me">Hit me!</button>
+            <button id="game-btn" type="button" class="stay-btn">Stay</button>
+        </div>
+
+        <div class="score-txt">
+            <p class="score1">Player Score:</p>
+            <p class="player-score"></p>
+            <p class="score2">Dealer Score:</p>
+            <p class="dealer-score"></p>
+        </div>
+    </div>
+
+<script src="./scripts/index.js"></script>
+
+</body>
+</html>

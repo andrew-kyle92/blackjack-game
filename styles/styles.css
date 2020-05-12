@@ -1,0 +1,193 @@
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Voltaire', sans-serif;
+    height: 100%;
+    letter-spacing: 2px;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+h1 {
+    color: red;
+    margin: 3rem auto;
+    width: 80%;
+}
+
+h2 {
+    margin: 2rem;
+    text-align: center;
+}
+
+hr {
+    border-style: solid;
+    color: tomato;
+    width: 62%
+}
+
+p {
+    margin: 1rem;
+    width: 7%;
+}
+
+#intro {
+    width: 32%;
+    margin: auto;
+}
+
+#main-game {
+    height: 100%;
+    margin: 10rem auto;
+    width: 26%;
+    visibility: hidden;
+}
+
+#main-h1 {
+    color: gray;
+    margin: 1rem auto .5rem;
+    width: 32%;
+}
+
+#player1 {
+    color: limegreen;
+    width: 32%;
+    height: 28px;
+    margin: auto;
+}
+
+#dealer {
+    color: red;
+    width: 32%;
+    margin: auto;
+}
+
+#play-btn {
+    outline-style: none;
+    background: silver;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Voltaire', sans-serif;
+    letter-spacing: 1px;
+    margin: 0.5rem auto 2rem;
+    width: 10%;
+}
+
+#play-btn:active {
+    background: lightgray;
+    font-weight: 700;
+}
+
+#play-btn:hover {
+    opacity: 75%;
+}
+
+#game-btn {
+    outline-style: none;
+    background: silver;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Voltaire', sans-serif;
+    height: 20px;
+    letter-spacing: 1px;
+    margin: .5rem;
+    width: 30%;
+}
+
+#game-btn:active {
+    background: lightgray;
+    font-weight: 700;
+}
+
+#game-btn:hover {
+    opacity: 75%;
+}
+
+#score-number {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem auto;
+    width: 91%;
+    height: 100%;
+}
+
+#score-number hr {
+    width: 0%;
+    margin: .5rem;
+}
+
+#score-number p {
+    margin: auto;
+}
+
+#card {
+    height: 90px;
+    width: 82px;
+    margin: .5rem auto;
+}
+
+.click-txt {
+    margin: 1rem auto 0rem;
+    width: 30%;
+}
+
+.game-btns {
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    margin: -0.5rem auto 1rem 1rem;
+    width: 47%;
+}
+
+.intro-hidden {
+    visibility: collapse;
+}
+
+.score1 {
+    width: 32%;
+    margin: auto 0rem;
+}
+
+.score2 {
+    width: 32%;
+    margin: auto;
+}
+
+.score-txt {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem auto 2rem;
+    width: 82%;
+}
+
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem auto 1rem auto;
+    width: 80%;
+}
+
+.player-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 48%;
+    justify-content: space-evenly;
+}
+
+.dealer-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 48%;
+    justify-content: space-evenly;
+}
+
+.dealer-note {
+    margin: 1rem auto;
+    width: 30%;
+}
