@@ -2,14 +2,18 @@
 
 <div id="intro">
 
-    <h1 id="Welcome">🃏Welcome to Black Jack!🃏</h1>
+    <h1 class="welcome">🃏Welcome to Black Jack!🃏</h1>
     <p class="login-note">Please log in, below</p>
 
     <hr>
 
-    <p class="click-txt">Click Play to begin</p>
-
-    <button id="play-btn">Play!</button>
+    <form action="/home" method="POST">
+        <label for="email">Email</label>
+        <input type="text" required>
+        <label for="password">Password</label>
+        <input type="password" required>
+        <button type="submit">Login</button>
+    </form>
 
 </div>
 
